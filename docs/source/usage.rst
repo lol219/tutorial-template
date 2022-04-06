@@ -6,29 +6,12 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use Searchify, first invite our bot (https://discord.com/oauth2/authorize?client_id=959784292190416906&permissions=8&scope=bot%20applications.commands) :
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   Make sure that you gave her their permissions
 
-Creating recipes
+Commands
 ----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+Searchify use slash commands, so you need to see slash command list, Then you're good to go. 
