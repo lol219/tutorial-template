@@ -1,8 +1,14 @@
 """
 Lumache - Python library for cooks and food lovers.
 """
-
+import sphinx_rtd_theme
 __version__ = "0.1.0"
+extensions = [
+    ...
+    'sphinx_rtd_theme',
+]
+
+html_theme = "sphinx_rtd_theme"
 
 
 class InvalidKindError(Exception):
